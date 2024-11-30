@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    /* Full-screen background */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('C:\Users\ADV Shivam pal\Downloads\galaxy-night-landscape.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Login form styling */
+    .login-container {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      text-align: center;
+    }
+
+    .login-container h1 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      background: #007BFF;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .login-container button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
